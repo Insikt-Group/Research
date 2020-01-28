@@ -4,9 +4,9 @@ Insikt Group created PowerShell commands that can be run in an organization’s 
 
 There are two PowerShell commands inlcuded.
 
-*TurlaRPCServerPNRSVC.ps1
+* TurlaRPCServerPNRSVC.ps1
 
-*TurlaRPCServerATCTL.ps1
+* TurlaRPCServerATCTL.ps1
 
 The commands attempt to connect to the named pipes, "\\.\pipe\pnrsvc" or "\\.\pipe\atctl". If the connection succeeds, this indicates with high confidence that the host is running the RPC server backdoor. Additional network analysis is then required to examine the connections to the host and identify the RPC client.
 
