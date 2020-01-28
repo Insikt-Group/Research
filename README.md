@@ -1,2 +1,2 @@
 # Research
-Recorded Future Insikt Group research indicators and detection rules
+Recorded Future Insikt Group research indicators, detection rules and analysis scripts
