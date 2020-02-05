@@ -1,4 +1,7 @@
-import socket, argparse, textwrap, os
+import socket
+import argparse
+import textwrap
+import os
 from struct import *
 
 
@@ -11,7 +14,7 @@ def scanController(HOST, PORT):
             data = s.recv(4)
             if len(data) == 4:
                 length = unpack("<I", data)[0]
-            data = s.recv(13)
+            data = s.recv()
             if len(data) == length:
                 valid = True
                 command = data.decode("utf-16")
