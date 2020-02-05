@@ -8,4 +8,4 @@ Examples:
 * python kopiluwakUAShodanSearch.py -t Shodan API Token\
 
 Requirements:
-* Shodan python library (https://shodan.readthedocs.io/en/latest/tutorial.html#installation) 
+* Shodan Python library (https://shodan.readthedocs.io/en/latest/tutorial.html#installation) 
