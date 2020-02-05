@@ -1,4 +1,7 @@
-import shodan, re, argparse, textwrap
+import shodan
+import re
+import argparse
+import textwrap
 
 
 def kopiluwak_match(ua):
