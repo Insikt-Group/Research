@@ -2,6 +2,7 @@ import urllib.parse,base64,argparse,textwrap
 from struct import *
 
 def bbs(start,mod):
+    #Blum Blum Shub Implementation
     n=2
     png=0
     while(n<10):
@@ -25,6 +26,7 @@ def bbs(start,mod):
 
 def decodeString(toDecode):
     parsed={}
+    # hardcoded modulus for Blum Blum Shub implementation
     mod = 0x7DFDC101
     urldecoded = urllib.parse.unquote_plus(toDecode)
     b64Decoded = base64.b64decode(urldecoded)
@@ -58,6 +60,7 @@ def decodeString(toDecode):
     return parsed
 
 def decodeb64Payload(start,payload):
+    # hardcoded modulus for Blum Blum Shub implementation
     mod = 0x7DFDC101
     key=start
     #payloaddecoded = urllib.parse.unquote_plus(payload)
@@ -70,6 +73,7 @@ def decodeb64Payload(start,payload):
 
 def decodePayload(start,payload):
     key=start
+    # hardcoded modulus for Blum Blum Shub implementation
     mod = 0x7DFDC101
     getstringDecode = []
     for b in payload:
@@ -79,6 +83,7 @@ def decodePayload(start,payload):
 
 def processPayload(start,payload):
     first=decodeb64Payload(start,payload)
+    # hardcoded key for Blum Blum Shub decryption of data section
     start = 0x03EB13
     second=decodePayload(start, first[28:])
     payload=("".join(map(chr,second)))
@@ -117,12 +122,14 @@ Examples:
 
     if args.url and args.payload:
         header=decodeString(args.url)
+        d_payload="Header contains wrong ID for payload to be decrypted"
         if header["ID"]==135:
             d_payload=processPayload(header["Start"],args.payload)
         print("\nDecoded Header\n----------------\nID: %s\nString Length:%s\nString: %s\nMAC Address: %s\n" %(hex(header["ID"]),header["String Length"],header["String"],header["MAC Address"]))
         print("Decoded Payload\n----------------\n%s\n" % (d_payload))
     elif args.url:
         header = decodeString(args.url)
+        # hardcoded key for Blum Blum Shub decryption of data section
         start = 0x03EB13
         second = decodePayload(start, header["Data"])
         d_payload = ("".join(map(chr, second)))
