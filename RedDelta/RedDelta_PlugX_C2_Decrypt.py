@@ -1,4 +1,3 @@
-
 from kamene.all import *
 from Crypto.Cipher import ARC4
 from struct import *
@@ -49,14 +48,14 @@ def main():
     """
     banner = """
 %s
-RedCharlie PlugX C2 Communication PCAP Decrypt
+RedDelta PlugX C2 Communication PCAP Decrypt
 ----------------------------------------------------------------
-This tool will decrypt the RedCharlie PlugX C2 Communication from a supplied PCAP.
+This tool will decrypt the RedDelta PlugX C2 Communication from a supplied PCAP.
 
 To use, just pass the full path of the PCAP file and the IP address of the C2.
 
 Examples:
-\t python RedCharlie_PlugX_C2_Decrypt.py -f  <FULL PATH TO DOWNLOADED DAT FILE> -i <IP ADDRESS OF C2>
+\t python RedDelta_PlugX_C2_Decrypt.py -f  <FULL PATH TO DOWNLOADED DAT FILE> -i <IP ADDRESS OF C2>
 """ % (
         logo
     )
