@@ -1,7 +1,3 @@
-# Decrypt malware samples encrypted with Shozab
-# Author: jebstein, Insikt Group
-# Date: 3/15/2021
-
 import sys
 import pefile
 import re
