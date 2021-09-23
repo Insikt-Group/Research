@@ -11,7 +11,7 @@ KRYPTON Commands Supported:
 
 Run the script with the --url argument to supply the location of the KRYPTON webshell
 
-<code>python3 KRYPTON_Client.py --url http://192.168.204.188/krypton.aspx<code>
+<code>python3 KRYPTON_Client.py --url http://192.168.204[.]188/krypton.aspx</code>
 
 KRYPTON commands are encrypted, by default the below key and IV are used. You can supply different key and iv by using the --key and --iv arguments.
 
