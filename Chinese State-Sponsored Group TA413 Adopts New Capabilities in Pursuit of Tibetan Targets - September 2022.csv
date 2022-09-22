@@ -1,0 +1,47 @@
+﻿Indicator,Description
+65.20.75[.]158,TA413-controlled server — CHOOPA (Vultr)
+118.99.9[.]60,TA413-controlled server — Forewin Telecom
+141.164.44[.]199,TA413-controlled server — CHOOPA (Vultr)
+141.164.51[.]194 ,TA413-controlled server — CHOOPA (Vultr)
+172.105.35[.]111,TA413-controlled server — Linode 
+172.105.50[.]9,TA413-controlled server — Linode 
+180.215.149[.]29,TA413-controlled server — BGPNET Global ASN 
+180.215.164[.]24,TA413-controlled server — BGPNET Global ASN 
+192.46.213[.]63,TA413-controlled server — Linode 
+134.122.129[.]38,TA413-controlled server — BGPNET Global ASN 
+134.122.129[.]102,TA413-controlled server — BGPNET Global ASN 
+134.122.129[.]139,TA413-controlled server — BGPNET Global ASN 
+http://65.20.75[.]158/poc.html,Staging server hosting Follina exploit
+http://65.20.75[.]158/0524x86110.exe,Staging server hosting LOWZERO malware
+tibet-gov.web[.]app,TA413 registered Google Firebase domain
+nangsi[.]info,TA413-controlled domain
+tibetexpress.zapto[.]org,TA413-controlled domain
+t1bet[.]net,TA413-controlled domain
+tibetanyouthcongress[.]net,TA413-controlled domain
+applestatic[.]com,TA413-controlled domain
+tibettimescategory[.]net,TA413-controlled domain
+newsindian[.]xyz,TA413-controlled domain
+jobflex[.]in,TA413-controlled domain
+airjaldi[.]online,TA413-controlled domain
+tibetanwomen[.]net,TA413-controlled domain
+tibetanhealth[.]online,TA413-controlled domain
+rediffpapers[.]com,TA413-controlled domain
+tibetyouthcongress[.]com,TA413-controlled domain
+tibetancongress[.]com,TA413-controlled domain
+freetibet[.]in,TA413-controlled domain
+flex-jobs[.]in,TA413-controlled domain
+tibet-independent[.]com,TA413-controlled domain
+tibetfreedom[.]xyz,TA413-controlled domain
+free-tibet[.]co,TA413-controlled domain
+nepalnews[.]world,TA413-controlled domain
+paloauto[.]online,TA413-controlled domain
+9681ef910820d553e4cd54286f8893850a3a57a29df7114c6a6b0d89362ff326,TA413 MalDoc weaponized using Royal Road
+028e07fa88736f405d24f0d465bc789c3bcbbc9278effb3b1b73653847e86cf8,Decoded LOWZERO payload from Royal Road sample
+c984867923411b3823a39b98672d1d98d1d093ea669f9b2984c05a0cb3072444,Malicious TA413 .docx file exploiting Follina vulnerability
+57e73e139dff99884e9287266ca4caf826e7ec3b5e93f737198c6bf970b982f8,File containing Follina exploit downloaded from http://65.20.75[.]158/poc.html
+5217c2a1802b0b0fe5592f9437cdfd21f87da1b6ebdc917679ed084e40096bfd,UPX-packed LOWZERO backdoor downloaded from http://65.20.75[.]158/0524x86110.exe
+,
+,
+,
+,
+,
