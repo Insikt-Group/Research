@@ -4,7 +4,7 @@ This is a Python script that scans for webshells by attempting to connect to com
 
 The script takes two arguments to run:
 
-1. --domiain: A list of domains to scan. Note, for each domain supplied, we append ~900 common webshell URIs. For internal scanning of your infrastrucutre this should pose no issues. However, for external or internet-wide scanning, we suggest pairing this list down to directories / filenames more applicable to your scan.
+1. --domain: A list of domains to scan. Note, for each domain supplied, we append ~900 common webshell URIs. For internal scanning of your infrastrucutre this should pose no issues. However, for external or internet-wide scanning, we suggest pairing this list down to directories / filenames more applicable to your scan.
 2. --yara: A YARA rule file is required to run this scanner, to maximize the effectivness of the results. If you are a Recorded Future customer, YARA rules specific to webshell scanning can be downloaded from our portal. YARA rules for webshells can also be found here:
     - https://github.com/Neo23x0/signature-base/search?q=webshell
 
