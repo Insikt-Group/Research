@@ -1,0 +1,1 @@
+Indicators of compromise referenced in report "[China-linked Group RedEcho Targets the Indian Power Sector Amid Heightened Border Tensions](https://www.recordedfuture.com/redecho-targeting-indian-power-sector)"
