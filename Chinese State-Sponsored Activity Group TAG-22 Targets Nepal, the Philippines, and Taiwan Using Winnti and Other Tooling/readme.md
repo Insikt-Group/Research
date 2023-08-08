@@ -1,0 +1,1 @@
+Indicators of compromise referenced in report "[Chinese State-Sponsored Activity Group TAG-22 Targets Nepal, the Philippines, and Taiwan Using Winnti and Other Tooling](https://www.recordedfuture.com/chinese-group-tag-22-targets-nepal-philippines-taiwan)"
